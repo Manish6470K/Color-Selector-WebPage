@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Selector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="screen">
+        <div class="box">
+            <div class="colorBox" id="setColor">
+                
+            </div>
+            <div class="selector">
+                <input type="range" min="0" max="255" oninput="change(this.value);" name="def" id="m1"><br>
+                <span id="result1">
+                    0
+                </span><br><br>
+                <input type="range" min="0" max="255" oninput="change1(this.value);" name="def" id="m2"><br>
+                <span id="result2">
+                    0
+                </span><br><br>
+                <input type="range" min="0" max="255" oninput="change2(this.value);" name="def" id="m3"><br>
+                <span id="result3">
+                    0
+                </span>
+                
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
